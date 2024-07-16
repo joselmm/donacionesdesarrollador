@@ -124,7 +124,15 @@
         })
       })
 
-
+      $.ajax({
+        url:"https://script.google.com/macros/s/AKfycbxLkSLIM4oEDYjhcO9FsKuTP6suK7kxWCiu0RIIfQgHVKQdXwvE972vQi5Qq4FaCVPq/exec"
+      })
+      .done(()=>{
+        console.log("listo perro")
+      })
+      .fail(()=>{
+        console.log("algo malo ocurrio")
+      })
 
     </script>
   </body>
